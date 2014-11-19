@@ -10,4 +10,4 @@ This repository contains ```Matlab``` functions to send notifications to a Slack
 
 ## Emojis ##
 
-A list of Emojis supported by Slack is available from (http://www.mathworks.com/matlabcentral/fileexchange/48508-slackmatlab).
+A list of Emojis supported by Slack is available from http://www.emoji-cheat-sheet.com.
