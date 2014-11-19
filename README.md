@@ -4,6 +4,6 @@ This repository contains ```Matlab``` functions to send notifications to a Slack
 
 ## Usage ##
 
-```SendSlackNotification``` is used to send a notification to a URL provided by Slack, for a configured [Incoming Webhooks](https://slack.com/services/new/incoming-webhook) integration.
+```SendSlackNotification``` is used to send a notification to a URL provided by Slack, for a configured [Incoming Webhooks](https://slack.com/services/new/incoming-webhook) integration. See the documentation for this function for information on options.
 
-```MakeSlackAttachments``` can be used to generate Slack [message attachments](https://api.slack.com/docs/attachments), which can then be sent as notifications using ```SendSlackNotification```.
+```MakeSlackAttachments``` can be used to generate Slack [message attachments](https://api.slack.com/docs/attachments), which can then be sent as notifications using ```SendSlackNotification```. See the documentation for this function for more information.
