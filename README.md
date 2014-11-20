@@ -11,3 +11,8 @@ This repository contains ```Matlab``` functions to send notifications to a Slack
 ## Emojis ##
 
 A list of Emojis supported by Slack is available from http://www.emoji-cheat-sheet.com.
+
+
+## Acknowledgements ##
+
+Contains code from [URLREAD2](http://www.mathworks.com/matlabcentral/fileexchange/35693-urlread2) and [JSONLAB](http://www.mathworks.com/matlabcentral/fileexchange/33381-jsonlab--a-toolbox-to-encode-decode-json-files-in-matlab-octave).
