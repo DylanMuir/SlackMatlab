@@ -17,7 +17,19 @@ This repository contains ```Matlab``` functions to send notifications to a Slack
 
 ### Example ###
 
+```
+% - Create a message attachment to send with a notification
+%   (optional; several message attachments can be sent with a single notification)
+sA = MakeSlackAttachment('New open task [urgent]: <link.to.website>', 'Text of the notification message', ...
+      'Text that will be displayed before the message', '#0000ff', ...
+      {'Field 1 title', 'This is a field that will be shown in a table'}, ...
+      {'Field 2 title', 'This is another field that will be shown in a table'});
 
+% - Send the notification, with the attached message
+SendSlackNotification('https://hooks.slack.com/services/this/is/your/webhook/url', ...
+   'I sent this notification from matlab, on behalf of @username.', '#target-channel', ...
+   'Name to post under', 'http://www.icon.com/url/to/icon/image.png', [], sA);
+```
 
 ## Emojis ##
 
