@@ -8,6 +8,17 @@ This repository contains ```Matlab``` functions to send notifications to a Slack
 
 ```MakeSlackAttachments``` can be used to generate Slack [message attachments](https://api.slack.com/docs/attachments), which can then be sent as notifications using ```SendSlackNotification```. See the documentation for this function for more information.
 
+## Set up ##
+
+1. Configure an [Incoming Webhooks](https://slack.com/services/new/incoming-webhook) integration for your team, from your team's [services](https://slack.com/services) page.
+2. Copy the Webhook URL once the service is configured, and store it in a ```Matlab``` string.
+3. Clone the [SlackMatlab repository](https://github.com/DylanMuir/SlackMatlab), and add the root directory to the ```Matlab``` path using ```pathtool```.
+4. Call ```SendSlackNotification```, passing the Webhook URL as an argument.
+
+### Example ###
+
+
+
 ## Emojis ##
 
 A list of Emojis supported by Slack is available from http://www.emoji-cheat-sheet.com.
