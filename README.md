@@ -17,7 +17,7 @@ This repository contains ```Matlab``` functions to send notifications to a Slack
 
 ### Example ###
 
-```
+```matlab
 % - Create a message attachment to send with a notification
 %   (optional; several message attachments can be sent with a single notification)
 sA = MakeSlackAttachment('New open task [urgent]: <link.to.website>', 'Text of the notification message', ...
